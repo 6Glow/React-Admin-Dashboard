@@ -1,9 +1,9 @@
 # React Admin Dashboard
 
 A modern, responsive admin dashboard UI demo built with React, Tailwind CSS, and Framer Motion. This project showcases UI/UX design patterns and data visualization components using mock data.
-
+<!---
 ![Dashboard Preview](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000)
-
+--->
 ## ℹ️ Important Note
 
 This is a UI demonstration project focused on showcasing design patterns and component architecture. All data displayed in the dashboard is static mock data, and no backend integration is implemented. The project serves as a visual template and UI component library.
