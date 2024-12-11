@@ -60,8 +60,6 @@ src/
 │   ├── products/         # Product UI elements
 │   ├── settings/         # Settings interface
 │   └── users/           # User management UI
-├── data/                # Mock data files
-├── types/              # TypeScript definitions
 └── pages/              # Page layouts
 ```
 
