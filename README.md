@@ -52,22 +52,89 @@ This is a UI demonstration project focused on showcasing design patterns and com
 ## 📁 Project Structure
 
 ```
-src/
-├── components/
-│   ├── analytics/          # Chart components with mock data
-│   ├── common/            # Shared UI components
-│   ├── orders/           # Order display components
-│   ├── products/         # Product UI elements
-│   ├── settings/         # Settings interface
-│   └── users/           # User management UI
-└── pages/              # Page layouts
+
+│
+├── public/                                        # Static public files (images, favicon, etc.)
+│  
+│
+├── src/
+│   ├── components/                                # Reusable React components
+│   │   ├── analytics/                             # Components for analytics dashboard
+│   │   │   ├── AIPoweredInsights.jsx     
+│   │   │   ├── ChannelPerformance.jsx             # Marketing channel performance chart
+│   │   │   ├── CustomerSegmentation.jsx           # Customer segment analysis radar chart
+│   │   │   ├── OverviewCards.jsx                  # Key performance indicator cards
+│   │   │   ├── ProductPerformance.jsx             # Product sales and revenue comparison
+│   │   │   ├── RevenueChart.jsx                   # Revenue tracking area chart
+│   │   │   └── UserRetention.jsx                  # User retention line chart
+│   │   │
+│   │   ├── common/                                # Shared/generic components
+│   │   │   ├── Header.jsx                         # Page header component
+│   │   │   ├── Sidebar.jsx                        # Navigation sidebar
+│   │   │   └── StatCard.jsx                       # Statistic card with icon and value
+│   │   │
+│   │   ├── orders/                                # Order-related components
+│   │   │   ├── DailyOrders.jsx                    # Daily order volume line chart
+│   │   │   ├── OrderDistribution.jsx              # Order status distribution pie chart
+│   │   │   └── OrdersTable.jsx                    # Searchable orders table
+│   │   │
+│   │   ├── overview/                              # Dashboard overview components
+│   │   │   ├── CategoryDistributionChart.jsx      # Sales by product category
+│   │   │   ├── SalesChannelChart.jsx              # Sales channels performance
+│   │   │   └── SalesOverviewChart.jsx             # Comprehensive sales overview
+│   │   │
+│   │   ├── products/                              # Product management components
+│   │   │   ├── ProductsTable.jsx                  # Searchable product inventory table
+│   │   │   └── SalesTrendChart.jsx                # Product sales trend line chart
+│   │   │
+│   │   ├── sales/                                 # Sales-related visualization components
+│   │   │   ├── DailySalesTrend.jsx                # Daily sales bar chart
+│   │   │   ├── SalesByCategoryChart.jsx           # Sales distribution by category
+│   │   │   └── SalesOverviewChart.jsx             # Comprehensive sales analysis
+│   │   │
+│   │   ├── settings/                              # User settings and preferences
+│   │   │   ├── ConnectedAccounts.jsx              # Social media account connections
+│   │   │   ├── DangerZone.jsx                     # Account deletion option
+│   │   │   ├── Notifications.jsx                  # Notification preferences
+│   │   │   ├── Profile.jsx                        # User profile management
+│   │   │   ├── Security.jsx                       # Security settings
+│   │   │   ├── SettingSection.jsx                 # Reusable settings section wrapper
+│   │   │   └── ToggleSwitch.jsx                   # Customizable toggle switch
+│   │   │
+│   │   └── users/                                 # User-related analytics components
+│   │       ├── UserActivityHeatmap.jsx            # User activity time distribution
+│   │       ├── UserDemographicsChart.jsx          # User age group distribution
+│   │       ├── UserGrowthChart.jsx                # User acquisition over time
+│   │       └── UsersTable.jsx                     # Searchable user management table
+│   │
+│   ├── pages/                                     # Page components
+│   │   ├── AnalyticsPage.jsx                      # Comprehensive analytics dashboard
+│   │   ├── OrdersPage.jsx                         # Orders management and tracking
+│   │   ├── OverviewPage.jsx                       # Main dashboard overview
+│   │   ├── ProductsPage.jsx                       # Product inventory and management
+│   │   ├── SalesPage.jsx                          # Sales performance tracking
+│   │   ├── SettingsPage.jsx                       # User account and app settings
+│   │   └── UserPage.jsx                           # User management and analytics
+│   │
+│   ├── App.jsx                                    # Main application component and routing
+│   ├── index.css                                  # Global CSS with Tailwind directives
+│   ├── main.jsx                                   # React application entry point
+│   └── index.html                                 # Alternative HTML entry point
+│
+├── .eslintrc.cjs                                  # ESLint configuration for code quality
+├── .gitignore                                     # Git ignored files and directories
+├── index.html                                     # Root HTML file
+├── package.json                                   # Project dependencies and scripts
+├── postcss.config.js                              # PostCSS configuration
+├── tailwind.config.js                             # Tailwind CSS customization
+└── vite.config.js                                 # Vite build tool configuration
 ```
 
 ## 🚀 Quick Start
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/react-admin-dashboard.git
+git clone https://github.com/6Glow/react-admin-dashboard.git
 ```
 
 2. Install dependencies:
