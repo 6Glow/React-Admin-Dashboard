@@ -196,7 +196,7 @@ npm run build
 # Preview production build
 npm run preview
 ```
-
+<!---
 ## 🤝 Contributing
 
 We welcome contributions to improve the UI components and design patterns! Please follow these steps:
@@ -206,7 +206,7 @@ We welcome contributions to improve the UI components and design patterns! Pleas
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
+--->
 ## 📋 Future Implementation Suggestions
 
 To convert this UI demo into a full-featured application:
